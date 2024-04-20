@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-20T18:32:54Z" name="Suite" finished-at="2024-04-20T18:32:58Z" duration-ms="4227">
+    <groups>
+    </groups>
+    <test started-at="2024-04-20T18:32:54Z" name="Test1" finished-at="2024-04-20T18:32:57Z" duration-ms="2908">
+      <class name="demoblaze.testSignUpAPIs">
+        <test-method signature="testSignUpwithNewUser()[pri:0, instance:demoblaze.testSignUpAPIs@6f19ac19]" started-at="2024-04-20T20:32:54Z" name="testSignUpwithNewUser" finished-at="2024-04-20T20:32:56Z" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpwithNewUser -->
+        <test-method signature="testSignUpWithAlreadyExistUser()[pri:0, instance:demoblaze.testSignUpAPIs@6f19ac19]" started-at="2024-04-20T20:32:56Z" name="testSignUpWithAlreadyExistUser" finished-at="2024-04-20T20:32:57Z" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithAlreadyExistUser -->
+      </class> <!-- demoblaze.testSignUpAPIs -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-04-20T18:32:57Z" name="Test2" finished-at="2024-04-20T18:32:58Z" duration-ms="1251">
+      <class name="demoblaze.testLoginAPIs">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoblaze.testLoginAPIs@6f44a157]" started-at="2024-04-20T20:32:53Z" name="setup" finished-at="2024-04-20T20:32:54Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginwithValidUserNameAndValidPassword()[pri:0, instance:demoblaze.testLoginAPIs@6f44a157]" started-at="2024-04-20T20:32:57Z" name="testLoginwithValidUserNameAndValidPassword" finished-at="2024-04-20T20:32:57Z" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginwithValidUserNameAndValidPassword -->
+        <test-method signature="testLoginwithValidUserNameAndInValidPassword()[pri:0, instance:demoblaze.testLoginAPIs@6f44a157]" started-at="2024-04-20T20:32:57Z" name="testLoginwithValidUserNameAndInValidPassword" finished-at="2024-04-20T20:32:58Z" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginwithValidUserNameAndInValidPassword -->
+      </class> <!-- demoblaze.testLoginAPIs -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
